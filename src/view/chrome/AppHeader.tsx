@@ -1,5 +1,13 @@
 import { BiLogoGithub } from "react-icons/bi";
-import { VuiFlexContainer, VuiFlexItem, VuiTitle, VuiIconButton, VuiIcon, VuiLink, VuiAppHeader } from "../../ui";
+import {
+  VuiFlexContainer,
+  VuiFlexItem,
+  VuiTitle,
+  VuiIconButton,
+  VuiIcon,
+  VuiLink,
+  VuiAppHeader,
+} from "../../ui";
 import { HeaderLogo } from "./HeaderLogo";
 
 export const AppHeader = () => {
@@ -15,8 +23,8 @@ export const AppHeader = () => {
             <VuiTitle size="xs">
               <h1>
                 <strong>
-                  <VuiLink isAnchor href="https://vectara.github.io/create-ui">
-                    Vectara Create-UI
+                  <VuiLink isAnchor href="https://longevity.so">
+                    Longevity Copilot
                   </VuiLink>
                 </strong>
               </h1>
@@ -26,7 +34,7 @@ export const AppHeader = () => {
       }
       right={
         <VuiIconButton
-          href="https://github.com/vectara/create-ui"
+          href="https://github.com/langlabsio/longevity-copilot"
           target="_blank"
           color="neutral"
           size="l"
